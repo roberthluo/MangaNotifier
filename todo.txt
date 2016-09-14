@@ -1,0 +1,18 @@
+- MangaDatabaseService updates the database every hour. app.py runs a flask app to provide a REST API.
+main.py should start both of these services.
+
+- HTMLParser should be updated to parse other websites
+
+- REST API endpoint should be created for getting a list of manga names
+
+- REST API endpoint should be created for adding users
+
+- REST API endpoint should be created for removing users
+
+- REST API endpoint should be created for adding manga to a user's notification list
+
+- REST API endpoint should be created for removing manga from a user's notification list
+
+- REST API endpoint should be created for getting a list of manga in a specific user's notification list
+
+- REST API endpoint should be created for getting a list of recently updated manga in a specified user's notification list

@@ -40,9 +40,6 @@ class MangaDAO:
 if __name__ == '__main__':
     manga_dao = MangaDAO()
 
-    #Add
-    #manga_dao.add_manga({'name': 'The Heroic Legend of Arslan', 'release': '10 - A Captured Queen', 'link': 'http://readms.com/r/arslan/10/2417/1'})
-    #loop to add all records to db
     html_parser = HTMLParser()
     mangaelem = {"name" : 'Vinland Saga',
         "link" :'http://readms.com/r/vinland_saga/127/3377/1',
@@ -56,4 +53,3 @@ if __name__ == '__main__':
     print(manga_dao.check_if_exist(mangaelem1))
 
     line = html_parser.parse_mangastream()
-    #m = re.search(, line)
