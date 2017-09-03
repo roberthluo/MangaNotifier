@@ -1,5 +1,5 @@
 # MangaNotifier
-This is a widget for manga fans. Instead of RSS notifiers from different sites, this is a widget that polls from multiple sites.
+This is a widget for manga fans. Instead of RSS notifiers from different sites, this polls from multiple sites.
 
 Currently, we are trying to use Android visual studio to build this for android users.
 
@@ -23,6 +23,7 @@ We are using eve for our REST API.
 * MongoDB
 * Git
 * Eve
+* feedgen
 
 ##Setup
 
